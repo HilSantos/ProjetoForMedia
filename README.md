@@ -30,7 +30,7 @@ namespace ProjetoForMedia
                 soma += nota;
             }
             media = soma / 3;
-            Console.WriteLine("Media das 3 notas: " + media);
+            Console.WriteLine("Media das 3 notas: " + media.ToString());
 
             Console.ReadKey();
         }
